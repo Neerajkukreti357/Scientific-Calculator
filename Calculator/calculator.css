@@ -1,0 +1,76 @@
+*
+{
+    margin: 0px;
+    color: white;
+    padding: 0px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+.box
+{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.658);
+    opacity: 3;
+    width: 20rem;
+    height: 31rem;
+    border:1px solid black ;
+}
+
+.title
+{
+    position: relative;
+    padding: 7px 7px 7px 7px; /* trbl */
+    font-size: 15px;
+}
+
+#input_div
+{
+    border:  2px solid black;
+    position: absolute;
+    margin-top: 10px;
+    text-align: right;
+    height: 40px;
+    width: 98%;
+    border-radius: 4px;
+}
+
+#text
+{
+    display: inline;
+    padding-right:10px ;
+    margin-top: 7px;
+    letter-spacing: 5px;
+}
+
+
+
+.buttons_block
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    position: relative;
+    height: 4rem;
+    width: 20rem;
+}
+
+.but_1
+{
+    position: relative;
+    margin-top: 3px;
+    margin-left: 4.5px;
+    width: 3rem;
+    text-align: center;
+    padding-top: 10px;
+    height: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.616);
+
+}
+
+.but_1:hover
+{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.575);
+    transition: 0.1s;
+    font-weight: 10px;
+}

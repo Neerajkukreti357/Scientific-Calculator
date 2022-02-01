@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="calculator.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- claculator box -->
+    <div class="box">
+        <!-- title->calculator -->
+        <div class="title" style="letter-spacing: 1px;">
+            Calculator
+        </div>
+        <!-- title of calculator end here -->
+
+        <!-- input-div -->
+        <div id="input_div">
+            <div id="text">
+
+            </div>
+        </div><!-- input div end here -->
+
+        <!-- buttons -->
+        <div class="buttons_block">
+            <div class="but_1" onclick=change('1')>1</div>
+            <div class="but_1" onclick=change('2')>2</div>
+            <div class="but_1" onclick=change('3')>3</div>
+            <div class="but_1" onclick=change('+')>+</div>
+            <div class="but_1" onclick=change('-')>-</div>
+            <div class="but_1" onclick=back_but()>Back</div>
+            <div class="but_1" onclick=change('4')>4</div>
+            <div class="but_1" onclick=change('5')>5</div>
+            <div class="but_1" onclick=change('6')>6</div>
+            <div class="but_1" onclick=change('*')>*</div>
+            <div class="but_1" onclick=change('/')>/</div>
+            <div class="but_1" onclick=change('^')>^</div>
+            <div class="but_1" onclick=change('7')>7</div>
+            <div class="but_1" onclick=change('8')>8</div>
+            <div class="but_1" onclick=change('9')>9</div>
+            <div class="but_1" onclick=change('.')>.</div>
+            <div class="but_1" onclick=change('sin(')>sin</div>
+            <div class="but_1" onclick=change('cos(')>cos</div>
+            <div class="but_1" onclick=change('0')>0</div>
+            <div class="but_1" onclick=change('00')>00</div>
+            <div class="but_1" onclick=change('(')>(</div>
+            <div class="but_1" onclick=change(')')>)</div>
+            <div class="but_1" onclick=change('log(')>log2</div>
+            <div class="but_1" onclick=change('tan(')>tan</div>
+            <div class="but_1" onclick=change('!')>n!</div>
+            <div class="but_1" onclick=change('%')>%</div>
+            <div class="but_1" onclick=change('pi')>&#960;</div>
+            <div class="but_1" onclick=change('deg(')>deg</div>
+            <div class="but_1" onclick=change('rad(')>rad</div>
+            <div class="but_1" onclick=change('ex(')>e<sup>x</sup></div>
+            <div class="but_1" onclick=change('asin(')>sin<sup>-1</sup></div>
+            <div class="but_1" onclick=change('acos(')>cos<sup>-1</sup></div>
+            <div class="but_1" onclick=change('atan(')>tan<sup>-1</sup></div>
+            <div class="but_1" onclick=change('nCr(')>nCr</div>
+            <div class="but_1" onclick=change('cbr(')>&#8731</div>
+            <div class="but_1" onclick=change('sqr(')>&#8730</div>
+            <div class="but_1" onclick=recent_expr()>rec</div>
+            <div class="but_1" onclick=clrScr()>clr</div>
+            <div class="but_1" style="width: 12.8rem;" onclick=solve()>=</div>
+        </div><!-- buttons end -->
+
+    </div><!-- calculator box end here -->
+
+
+    <!-- javascript -class -->
+    <script src="calculator.js"></script>
+</body>
+
+</html>
